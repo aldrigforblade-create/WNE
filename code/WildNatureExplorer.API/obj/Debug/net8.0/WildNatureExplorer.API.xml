@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WildNatureExplorer.API</name>
+    </assembly>
+    <members>
+        <member name="M:WildNatureExplorer.API.Controllers.MapController.GetByCountry(System.Guid,System.String)">
+            <summary>
+            Get all species points for a country with full details
+            </summary>
+        </member>
+        <member name="M:WildNatureExplorer.API.Controllers.MapController.GetDangerousByCountry(System.Guid)">
+            <summary>
+            Get only dangerous species with their locations for danger mode
+            </summary>
+        </member>
+        <member name="M:WildNatureExplorer.API.Controllers.MapController.SearchInCountry(System.Guid,System.String)">
+            <summary>
+            Search for a specific animal in a country
+            </summary>
+        </member>
+        <member name="M:WildNatureExplorer.API.Controllers.MapController.GetCountryBounds(System.Guid)">
+            <summary>
+            Get country bounds for map focusing
+            </summary>
+        </member>
+        <member name="M:WildNatureExplorer.API.Controllers.MapController.CheckProximity(WildNatureExplorer.API.Controllers.ProximityCheckRequest)">
+            <summary>
+            Check proximity to dangerous animals
+            </summary>
+        </member>
+        <member name="M:WildNatureExplorer.API.Controllers.MapController.CalculateDistance(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            Calculate distance between two coordinates using Haversine formula
+            </summary>
+        </member>
+    </members>
+</doc>
